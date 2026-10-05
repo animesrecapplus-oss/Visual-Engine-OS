@@ -1,0 +1,18 @@
+{
+  "version": "V1.86",
+  "workload": "fresh-process production face render; warm render median per sample",
+  "baseline_samples_ns": [
+    46702972,
+    42920483,
+    41812787
+  ],
+  "current_samples_ns": [
+    45164610,
+    46171603,
+    46254239
+  ],
+  "baseline_median_ns": 42920483,
+  "current_median_ns": 46171603,
+  "delta_percent": 7.574751663442371,
+  "interpretation": "sanity measurement; no optimization claim"
+}

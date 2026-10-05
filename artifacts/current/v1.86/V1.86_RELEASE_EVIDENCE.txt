@@ -1,0 +1,53 @@
+V1.86 RELEASE EVIDENCE
+======================
+Component: CMP-EYE-EYELID
+Scope: local EyelidAppearance boolean/type/finiteness input hardening
+Baseline: V1.85 certified release
+
+OWNER
+src/visual_engine/components/face/eyes/eyelid/spec.py:8-73
+
+FOCUSED HOSTILE TESTS
+93 collected / 93 PASS / 0 FAIL
+
+FULL REGRESSION
+157 test files / 1371 tests / 1370 PASS / 1 expected PostgreSQL SKIP / 0 FAIL
+
+COMPILE
+python -m compileall -q src tests tools: PASS
+
+SOURCE IDENTITY
+209 modules baseline / 209 current
+added 0 / removed 0 / changed exactly eyelid/spec.py
+
+DEPENDENCY GRAPH
+209 modules / 567 edges / 3 pre-existing SCC / 0 new SCC / 0 duplicate groups
+
+DATABASE
+8 migration files / added 0 / removed 0 / changed 0
+
+VISUAL DIFFERENTIAL
+normal front: identical
+normal +12 deg: identical
+normal -12 deg: identical
+hidden interaction: identical
+valid boundary eye render: identical
+Actual PNG artifacts were generated; normal front and valid-boundary artifacts were inspected.
+Claim limited to valid-render invariance; no artistic-quality claim.
+
+BENCHMARK
+Baseline median: 42920483 ns
+Current median: 46171603 ns
+Delta: +7.5748%
+Sanity measurement only; no optimization claim.
+
+ARTIFACT POLICY
+artifacts/current contains only v1.86 before packaging.
+Transient __pycache__, .pyc and .pytest_cache are purged before release packaging.
+
+GIT
+Not applicable. The project is explicitly not a Git repository.
+
+CERTIFICATION
+All required V1.86 gates PASS. The one PostgreSQL skip is environment-dependent and pre-existing in the baseline
+policy; no V1.86 database claim depends on it.

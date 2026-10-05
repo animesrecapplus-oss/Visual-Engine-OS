@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "baseline_svg_sha256": "379a3ae4da1a1049cda39c245738bd3c55f75c4766a716f7c9a0724ba7df10a8",
+      "case": "normal_front",
+      "current_svg_sha256": "379a3ae4da1a1049cda39c245738bd3c55f75c4766a716f7c9a0724ba7df10a8",
+      "hidden": false,
+      "identical": true,
+      "kind": "production",
+      "png": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_front.png",
+      "rotation": 0.0,
+      "svg": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_front.svg"
+    },
+    {
+      "baseline_svg_sha256": "3d271eeaa3a940688fa2796f2e58c097142aafddeb5271bf9dfa67e720b5209e",
+      "case": "normal_tilt_plus",
+      "current_svg_sha256": "3d271eeaa3a940688fa2796f2e58c097142aafddeb5271bf9dfa67e720b5209e",
+      "hidden": false,
+      "identical": true,
+      "kind": "production",
+      "png": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_tilt_plus.png",
+      "rotation": 12.0,
+      "svg": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_tilt_plus.svg"
+    },
+    {
+      "baseline_svg_sha256": "5301b74710e1a54be64eae0514e5acf78f8c95eeafcee23ebf41dff8558e8ee8",
+      "case": "normal_tilt_minus",
+      "current_svg_sha256": "5301b74710e1a54be64eae0514e5acf78f8c95eeafcee23ebf41dff8558e8ee8",
+      "hidden": false,
+      "identical": true,
+      "kind": "production",
+      "png": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_tilt_minus.png",
+      "rotation": -12.0,
+      "svg": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_normal_tilt_minus.svg"
+    },
+    {
+      "baseline_svg_sha256": "abece5b777f16bc8846e82b923dcddb4ae652e164a3faa18fd900562ca52827e",
+      "case": "interaction_hidden",
+      "current_svg_sha256": "abece5b777f16bc8846e82b923dcddb4ae652e164a3faa18fd900562ca52827e",
+      "hidden": true,
+      "identical": true,
+      "kind": "production",
+      "png": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_interaction_hidden.png",
+      "rotation": 0.0,
+      "svg": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_interaction_hidden.svg"
+    },
+    {
+      "baseline_svg_sha256": "f134c4eded9c775b25166752d8671ddff8db3fa9426e03caa303930967b34a03",
+      "case": "boundary_valid",
+      "current_svg_sha256": "f134c4eded9c775b25166752d8671ddff8db3fa9426e03caa303930967b34a03",
+      "hidden": false,
+      "identical": true,
+      "kind": "boundary",
+      "png": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_boundary_valid.png",
+      "rotation": 0.0,
+      "svg": "artifacts/current/v1.86/V1.86_EYELID_INVARIANCE_boundary_valid.svg"
+    }
+  ],
+  "claim": "unchanged valid rendering only; no artistic-quality claim",
+  "scope": "valid EyelidAppearance rendering invariance; production normal/interaction plus valid boundary",
+  "status": "PASS",
+  "version": "V1.86"
+}

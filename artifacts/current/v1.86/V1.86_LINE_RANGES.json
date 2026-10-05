@@ -1,0 +1,42 @@
+{
+  "version": "V1.86",
+  "status": "PASS",
+  "checks": {
+    "eyelid_owner": {
+      "range": "src/visual_engine/components/face/eyes/eyelid/spec.py:8-73",
+      "marker_present": true,
+      "actual_line_count": 73
+    },
+    "eyelid_test": {
+      "range": "tests/components/face/eyes/eyelid/test_v186_eyelid_input_hardening.py:1-100",
+      "marker_present": true,
+      "actual_line_count": 100
+    },
+    "appearance_consumer": {
+      "range": "src/visual_engine/components/face/eyes/appearance/spec.py:4-20",
+      "marker_present": true,
+      "actual_line_count": 55
+    },
+    "generator_consumer": {
+      "range": "src/visual_engine/components/face/eyes/generator.py:215-222",
+      "marker_present": true,
+      "actual_line_count": 245
+    },
+    "contour_renderer": {
+      "range": "src/visual_engine/render/eye_svg_contours.py:120-136",
+      "marker_present": true,
+      "actual_line_count": 188
+    },
+    "crease_renderer": {
+      "range": "src/visual_engine/render/eye_svg_effects.py:147-162",
+      "marker_present": true,
+      "actual_line_count": 233
+    },
+    "compat_export": {
+      "range": "src/visual_engine/geometry/__init__.py:3-9",
+      "marker_present": true,
+      "actual_line_count": 23
+    }
+  },
+  "oversized_docs": {}
+}

@@ -1,0 +1,22 @@
+{
+  "version": "V1.86",
+  "status": "PASS_WITH_EXPECTED_POSTGRES_SKIP",
+  "collection": {
+    "test_files": 157,
+    "tests": 1371,
+    "unit_files": 127,
+    "unit_tests": 1079,
+    "component_files": 25,
+    "component_tests": 285,
+    "integration_files": 5,
+    "integration_tests": 5
+  },
+  "results": {
+    "passed": 1370,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "PostgreSQL integration requires VISUAL_ENGINE_POSTGRES_DSN"
+  },
+  "execution": "unit suite executed in deterministic file chunks because the full unit invocation exceeds the runtime window; every unit file completed PASS",
+  "focused_eyelid": "93/93 PASS"
+}

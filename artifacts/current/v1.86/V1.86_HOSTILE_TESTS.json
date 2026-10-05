@@ -1,0 +1,26 @@
+{
+  "version": "V1.86",
+  "component": "CMP-EYE-EYELID",
+  "status": "PASS",
+  "focused_tests": {
+    "file": "tests/components/face/eyes/eyelid/test_v186_eyelid_input_hardening.py",
+    "collected": 93,
+    "passed": 93,
+    "failed": 0
+  },
+  "attacks": [
+    "NaN",
+    "+infinity",
+    "-infinity",
+    "integer overflow",
+    "bool contamination",
+    "coercive numeric strings",
+    "non-bool enable controls",
+    "negative and out-of-range values",
+    "valid exact boundaries",
+    "invalid colors",
+    "frozen mutation"
+  ],
+  "property_based_testing": "NOT_AVAILABLE: Hypothesis is not installed in the baseline environment; deterministic parameterized hostile coverage used instead",
+  "important_result": "large integer inputs are rejected as ValueError rather than leaking OverflowError from math.isfinite"
+}

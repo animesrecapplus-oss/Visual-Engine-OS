@@ -1,0 +1,53 @@
+{
+  "version": "V1.86",
+  "status": "CERTIFIED",
+  "component": "CMP-EYE-EYELID",
+  "scope": "EyelidAppearance local boolean/type/finiteness input hardening",
+  "baseline": "V1.85 certified release",
+  "canonical_owner": "src/visual_engine/components/face/eyes/eyelid/spec.py:8-73",
+  "protocol": {
+    "CAPABILITY_ROUTING": "PASS",
+    "VERIFY": "PASS",
+    "IDENTIFY": "PASS",
+    "ARCHITECT": "PASS",
+    "CONTRACT": "PASS",
+    "IMPACT": "PASS_REOPENED_ON_OVERFLOW_FINDING",
+    "IMPLEMENT": "PASS",
+    "HOSTILE_TEST": "PASS",
+    "REVIEW": "PASS",
+    "OPTIMIZE": "PASS_MEASURED_NO_OPTIMIZATION_CLAIM",
+    "INTEGRATE": "PASS",
+    "VISUALIZE": "PASS_INVARIANCE_AND_INSPECTION",
+    "EVIDENCE": "PASS",
+    "DOCUMENT": "PASS",
+    "PURGE": "PASS",
+    "CERTIFY": "PASS"
+  },
+  "source_identity": {
+    "modules_baseline": 209,
+    "modules_current": 209,
+    "added": [],
+    "removed": [],
+    "changed": [
+      "visual_engine/components/face/eyes/eyelid/spec.py"
+    ]
+  },
+  "tests": {
+    "test_files": 157,
+    "collected": 1371,
+    "passed": 1370,
+    "skipped": 1,
+    "failed": 0,
+    "expected_skip": "PostgreSQL integration requires VISUAL_ENGINE_POSTGRES_DSN",
+    "focused_eyelid": "93/93 PASS"
+  },
+  "compileall": "PASS",
+  "dependency_graph": "PASS: 209 modules, 567 edges, 3 pre-existing SCC, 0 new SCC, 0 duplicate groups",
+  "database": "PASS: 8 migration files unchanged",
+  "visual": "PASS: normal front, +12, -12, hidden interaction and valid boundary SVG hashes identical to V1.85; actual PNGs generated and inspected; invariance claim only",
+  "benchmark": "PASS_SANITY_ONLY: median delta +7.5748%; no optimization claim",
+  "property_based_testing": "NOT_AVAILABLE: Hypothesis not installed; deterministic parameterized hostile testing used",
+  "git": "NOT_APPLICABLE: project is explicitly not a Git repository",
+  "artifact_policy": "PASS: artifacts/current contains only v1.86; transient caches purged before package",
+  "no_invented_consumer_contract_invariant_or_visual_proof": true
+}
